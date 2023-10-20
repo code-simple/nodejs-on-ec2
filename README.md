@@ -62,6 +62,7 @@ Start the application
 To start the application, run the below command in the terminal:
 
 ```bash
-npm start
+sudo npm i pm2 -g
+pm2 start index
 ```
 
