@@ -8,7 +8,6 @@ Great for testing simple deployments on Cloud
 Install node version manager (nvm) by typing the following at the command line.
 
 ```bash
-sudo su -
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
 Activate nvm by typing the following at the command line.
