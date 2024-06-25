@@ -110,4 +110,8 @@ sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 
 # Only valid for 90 days, test the renewal process with
 certbot renew --dry-run
+
+# After including server_name correctly in /etc/nginx/sites-available/default do this 
+ sudo certbot --nginx -v 
+and select each (1,2) or (1 2) 
 ```
