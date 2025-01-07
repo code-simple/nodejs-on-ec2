@@ -108,8 +108,10 @@ sudo apt-get update
 sudo apt-get install python3-certbot-nginx
 sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 
-# Only valid for 90 days, test the renewal process with
-certbot renew --dry-run
+# Renewal process with
+Make sure apache2 and nginx are not running. Stop both and test.
+sudo lsof -i :443 
+sudo certbot renew,
 
 # After including server_name correctly in /etc/nginx/sites-available/default do this 
  sudo certbot --nginx -v 
